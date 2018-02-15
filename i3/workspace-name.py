@@ -52,6 +52,7 @@ icons = {
   'dolphin'        : fa.icons['folder'],
   'emacs'          : fa.icons['code'],
   'firefox'        : fa.icons['firefox'],
+  'gwenview'       : '', # fa.icons['image']
   'kate'           : fa.icons['code'],
   'kwrite'         : fa.icons['file-text-o'],
   'okular'         : fa.icons['file-pdf-o'],

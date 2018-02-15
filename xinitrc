@@ -20,7 +20,7 @@ setxkbmap -option compose:lwin
 [ "$XDG_CURRENT_DESKTOP" = "KDE" ] || [ "$XDG_CURRENT_DESKTOP" = "GNOME" ] || export QT_QPA_PLATFORMTHEME="qt5ct"
 
 # set wallpaper
-feh --bg-scale "~/.config/wallpaper"
+feh --bg-scale ~/.config/wallpaper.png
 xsetroot -cursor_name left_ptr&
 
 

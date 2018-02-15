@@ -6,7 +6,6 @@ exec --no-startup-id i3-msg 'workspace 4; exec konsole -e ~/.config/i3/sys-updat
 
 # exec --no-startup-id conky # run conky at startup and move it to status workspace
 # for_window [class="Conky"] move container to workspace 10:status
-
 # ----------------------------------------------------------------------------------------
 
 
@@ -66,6 +65,14 @@ mode "resize" {
   bindsym d     resize grow   width  3 px or 2 ppt
   bindsym s     resize grow   height 3 px or 2 ppt
   bindsym a     resize shrink width  3 px or 2 ppt
+  bindsym Shift+Up    resize shrink height 30 px or 25 ppt
+  bindsym Shift+Right resize grow   width  30 px or 25 ppt
+  bindsym Shift+Down  resize grow   height 30 px or 25 ppt
+  bindsym Shift+Left  resize shrink width  30 px or 25 ppt
+  bindsym Shift+w     resize shrink height 30 px or 25 ppt
+  bindsym Shift+d     resize grow   width  30 px or 25 ppt
+  bindsym Shift+s     resize grow   height 30 px or 25 ppt
+  bindsym Shift+a     resize shrink width  30 px or 25 ppt
   
   # back to normal: Enter or Escape
   bindsym Return mode "default"
@@ -82,7 +89,7 @@ mode "kbdLayoutChange" { # change keyboard layout
 }
 bindsym $mod+Shift+b mode "kbdLayoutChange"
 
-set $mode_launch Launch: (v) vivaldi, (e) emacs, (d) dolphin
+set $mode_launch Launch:  [v ]  [e ]  [d ]
 mode "$mode_launch" { # launch common apps
   bindsym v exec vivaldi-stable; mode "default"
   bindsym e exec emacs;          mode "default"
@@ -135,7 +142,7 @@ bindsym $mod+Shift+a     move left
 bindsym $mod+h split h
 bindsym $mod+v split v
  
-bindsym $mod+f fullscreen toggle
+bindsym $mod+F11 fullscreen toggle
  
 # change container layout (stacked, tabbed, toggle split)
 # bindsym $mod+s layout stacking
@@ -144,7 +151,7 @@ bindsym $mod+f fullscreen toggle
 # bindsym $mod+a focus parent
 
 # toggle tiling / floating:
-bindsym $mod+Shift+space floating toggle
+bindsym $mod+f floating toggle
 # change focus between tiling / floating windows:
 bindsym $mod+space focus mode_toggle
  
