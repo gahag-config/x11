@@ -205,11 +205,12 @@ bindsym $mod+bracketleft  exec amixer -q set Master 2%- unmute
 # multimedia binds
 bindsym XF86PowerOff mode "$mode_leave"
 
-bindsym XF86AudioMute     exec amixer -q -D pulse set Master toggle
-bindsym XF86Launch1           exec xset dpms force off
+bindsym XF86AudioPlay  exec smplayer -send-action play
+bindsym XF86AudioPause exec smplayer -send-action pause
 
-bindsym Print --release exec "shutter -s; shutter -s"
+bindsym Print --release exec spectacle
 # ----------------------------------------------------------------------------------------
 
 # window rules ---------------------------------------------------------------------------
 assign [class="Thunderbird"] 6
+# ----------------------------------------------------------------------------------------

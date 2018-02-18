@@ -2,6 +2,10 @@
 # David.Monniaux@ens.fr
 #
 
+# User definitions
+<Multi_key> <q> : "/" slash
+<Multi_key> <Q> : "/" slash
+
 # Part 1 - Manual definitions
 
 # Spacing versions of dead accents
