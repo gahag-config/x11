@@ -2,7 +2,7 @@
 # these must be before the startup scripts, because the
 # workspace-name script renames the workspaces.
 exec --no-startup-id i3-msg 'workspace 3; exec thunderbird'
-exec --no-startup-id i3-msg 'workspace 4; exec konsole -e ~/.config/i3/sys-update.sh'
+#exec --no-startup-id i3-msg 'workspace 4; exec konsole -e ~/.config/i3/sys-update.sh'
 
 # exec --no-startup-id conky # run conky at startup and move it to status workspace
 # for_window [class="Conky"] move container to workspace 10:status
