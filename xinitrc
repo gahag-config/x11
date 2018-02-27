@@ -14,18 +14,10 @@ fi
 
 # keyboard settings
 setxkbmap -option compose:lwin
-[[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap
+xmodmap -e "keycode 108 = Hyper_R" # Separate Alt Gr from Alt
 
-# load theme for qt apps
-[ "$XDG_CURRENT_DESKTOP" = "KDE" ] || [ "$XDG_CURRENT_DESKTOP" = "GNOME" ] || export QT_QPA_PLATFORMTHEME="qt5ct"
-
-# set wallpaper
-feh --bg-scale ~/.config/wallpaper.png
-xsetroot -cursor_name left_ptr&
-
-
-exec i3
+# exec i3
 # exec gnome-session
-#exec startkde
+exec startkde
 # exec startxfce4
 # ...or the Window Manager of your choice
