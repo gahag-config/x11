@@ -5,6 +5,8 @@
 # User definitions
 <Multi_key> <q> : "/" slash
 <Multi_key> <Q> : "/" slash
+<Multi_key> <w> : "?" interrogation
+<Multi_key> <W> : "?" interrogation
 
 # Part 1 - Manual definitions
 
