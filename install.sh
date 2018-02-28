@@ -12,5 +12,8 @@ cd $(dirname $(readlink -f $0)) # jump to the script directory
 # xinitrc
 ln-cfg xinitrc ~/.xinitrc
 
+# xmodmap
+ln-cfg xmodmap ~/.Xmodmap
+
 # xcompose
 ln-cfg xcompose ~/.XCompose

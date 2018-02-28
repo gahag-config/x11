@@ -14,7 +14,7 @@ fi
 
 # keyboard settings
 setxkbmap -option compose:lwin
-xmodmap -e "keycode 108 = Hyper_R" # Separate Alt Gr from Alt
+[[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap
 
 # exec i3
 # exec gnome-session
