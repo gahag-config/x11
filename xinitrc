@@ -13,8 +13,7 @@ fi
 
 
 # keyboard settings
-setxkbmap -option compose:lwin
-[[ -f ~/.Xmodmap ]] && xmodmap ~/.Xmodmap
+[[ -f "$XMODMAP" ]] && xmodmap "$XMODMAP"
 
 # exec i3
 # exec gnome-session
