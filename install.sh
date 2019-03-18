@@ -19,6 +19,13 @@ else
   ln-cfg xinitrc "$XINITRC"
 fi
 
+# xprofile
+if [ -z "$XPROFILE" ]; then
+  echo "XPROFILE not defined, skipping...";
+else
+  ln-cfg xprofile "$XPROFILE"
+fi
+
 # xmodmap
 if [ -z "$XMODMAP" ]; then
   echo "XMODMAP not defined, skipping...";

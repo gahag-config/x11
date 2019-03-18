@@ -5,8 +5,8 @@
 # User definitions
 <Multi_key> <q> : "/" slash
 <Multi_key> <Q> : "/" slash
-<Multi_key> <w> : "?" interrogation
-<Multi_key> <W> : "?" interrogation
+<Multi_key> <w> : "?" U003F
+<Multi_key> <W> : "?" U003F
 
 # Part 1 - Manual definitions
 
@@ -179,7 +179,7 @@
 <Multi_key> <equal> <N>          	: "₦"   U20a6 # NAIRA SIGN
 <Multi_key> <P> <t>              	: "₧"   U20a7 # PESETA SIGN
 <Multi_key> <R> <s>              	: "₨"   U20a8 # RUPEE SIGN
-<Multi_key> <W> <equal>          	: "₩"   U20a9 # WON SIGN
+# <Multi_key> <W> <equal>          	: "₩"   U20a9 # WON SIGN
 <Multi_key> <equal> <W>          	: "₩"   U20a9 # WON SIGN
 # "₪" U20aa NEW SHEQEL SIGN
 <Multi_key> <d> <equal>          	: "₫"   U20ab # DONG SIGN
@@ -1221,10 +1221,10 @@
 <Multi_key> <u> <comma> 		: "ų"   U0173 # LATIN SMALL LETTER U WITH OGONEK
 <dead_circumflex> <W>            	: "Ŵ"   U0174 # LATIN CAPITAL LETTER W WITH CIRCUMFLEX
 <Multi_key> <asciicircum> <W>    	: "Ŵ"   U0174 # LATIN CAPITAL LETTER W WITH CIRCUMFLEX
-<Multi_key> <W> <asciicircum> 		: "Ŵ"   U0174 # LATIN CAPITAL LETTER W WITH CIRCUMFLEX
+# <Multi_key> <W> <asciicircum> 		: "Ŵ"   U0174 # LATIN CAPITAL LETTER W WITH CIRCUMFLEX
 <dead_circumflex> <w>            	: "ŵ"   U0175 # LATIN SMALL LETTER W WITH CIRCUMFLEX
 <Multi_key> <asciicircum> <w>    	: "ŵ"   U0175 # LATIN SMALL LETTER W WITH CIRCUMFLEX
-<Multi_key> <w> <asciicircum> 		: "ŵ"   U0175 # LATIN SMALL LETTER W WITH CIRCUMFLEX
+# <Multi_key> <w> <asciicircum> 		: "ŵ"   U0175 # LATIN SMALL LETTER W WITH CIRCUMFLEX
 <dead_circumflex> <Y>            	: "Ŷ"   U0176 # LATIN CAPITAL LETTER Y WITH CIRCUMFLEX
 <Multi_key> <asciicircum> <Y>    	: "Ŷ"   U0176 # LATIN CAPITAL LETTER Y WITH CIRCUMFLEX
 <Multi_key> <Y> <asciicircum> 		: "Ŷ"   U0176 # LATIN CAPITAL LETTER Y WITH CIRCUMFLEX
