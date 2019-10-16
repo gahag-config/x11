@@ -20,6 +20,6 @@ fi
 
 # exec i3
 # exec gnome-session
-exec startkde
+exec startplasma-x11
 # exec startxfce4
 # ...or the Window Manager of your choice
