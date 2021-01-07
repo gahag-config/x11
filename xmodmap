@@ -1,9 +1,7 @@
-! rctrl
-keycode 105 = Hyper_R
 ! Alt Gr
-keycode 108 = Control_R
+keycode 108 = Hyper_R
 ! win
-keycode 133 = Multi_key
+keycode 135 = Multi_key
 
 clear control
 clear Mod1
