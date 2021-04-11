@@ -26,12 +26,13 @@ else
   ln-cfg xprofile "$XPROFILE"
 fi
 
+# Redox rendered this obsolete:
 # xmodmap
-if [ -z "$XMODMAP" ]; then
-  echo "XMODMAP not defined, skipping...";
-else
-  ln-cfg xmodmap "$XMODMAP"
-fi
+# if [ -z "$XMODMAP" ]; then
+#   echo "XMODMAP not defined, skipping...";
+# else
+#   ln-cfg xmodmap "$XMODMAP"
+# fi
 
 # xcompose
 if [ -z "$XCOMPOSEFILE" ]; then
